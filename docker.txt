@@ -1,0 +1,18 @@
+docker --version
+docker images
+docker info
+docker pull alpine
+docker images
+docker run alpipe sh
+docker ps -a
+docker run -d -it alpine sh
+docker ps -a
+docker run -it alpine sh
+docker ps -a
+docker ps -a
+docker stop Mylinux
+docker ps -a
+docker rm Mylinux
+docker ps -a
+docker rmi -f alpine
+docker pull alphine

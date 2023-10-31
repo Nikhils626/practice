@@ -1,0 +1,25 @@
+git init
+git config --global --list
+git config --global user.name ""
+git config --global user.gmail ""
+git add demo.txt
+git commit -m 'first commit'
+
+adding origin 
+git remote add origin https://github.com/Nikhils626/test5.git
+git show origin
+
+
+pulling changes from remote repository:
+git pull origin main
+git push
+
+generating ssh key
+sssh-keygen -t -rsa -b 4094 -C 'nikhilsawant626@gmail.com'
+git status
+git add gitkey
+git push origin main --force
+git push -u origin main
+git status
+git log
+git log --online
